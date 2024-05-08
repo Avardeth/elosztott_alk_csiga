@@ -10,7 +10,7 @@ package kosagyula.csigaprojekt;
  */
 public class Csiga implements Comparable<Csiga>{
     private final String color;
-    public int position = 0;
+    private int position = 0;
     
     public Csiga(String color) {
         this.color = color;
@@ -18,6 +18,10 @@ public class Csiga implements Comparable<Csiga>{
     
     public String getColor() {
         return this.color;
+    }
+    
+    public int getPosition() {
+        return this.position;
     }
     
     public void setPosition(int pos, float speedup) {

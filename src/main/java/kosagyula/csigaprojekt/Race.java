@@ -40,7 +40,7 @@ public class Race {
             System.out.format("Kör %d\n", i + 1);
             for (Csiga csiga : csigak) {
                 csiga.setPosition(rand.nextInt(4), rand.nextFloat());
-                System.out.format("A %s csiga %d egységnél tart\n", csiga.getColor(), csiga.position);
+                System.out.format("A %s csiga %d egységnél tart\n", csiga.getColor(), csiga.getPosition());
             }
             System.out.println("");
         }
